@@ -1,0 +1,13 @@
+---
+name: Return number
+pack: yotam_test_pack
+runner_type: "local-shell-script"
+description: Greet StackStorm!
+enabled: true
+entry_point: return_number.sh
+parameters:
+    number:
+        type: int
+        description: A number you want to return
+        required: true
+        position: 1
