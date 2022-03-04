@@ -1,2 +1,2 @@
 #!/bin/bash
-return $1
+echo $1
