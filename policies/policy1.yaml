@@ -1,9 +1,0 @@
----
-name: greet.concurrency
-pack: yotam_test_pack
-description: Limits the concurrent executions of the greet action.
-enabled: true
-resource_ref: hello_st2.greet
-policy_type: action.concurrency
-parameters:
-    threshold: 10

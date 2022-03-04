@@ -1,7 +1,0 @@
----
-name: greet
-pack: yotam_test_pack
-description: "Greet StackStorm"
-action_ref: "hello_st2.greet"
-formats:
-  - "greet {{greeting}}"
