@@ -1,6 +1,6 @@
 ---
 name: greet
-pack: yotam-test-pack
+pack: yotam_test_pack
 description: "Greet StackStorm"
 action_ref: "hello_st2.greet"
 formats:
